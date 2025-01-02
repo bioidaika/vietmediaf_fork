@@ -12,7 +12,7 @@
 	<extension point="xbmc.service" library="autorun.py"/>
 	<extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en">VietmediaF for Kodi 20</summary>
+        <summary lang="en">VietmediaF for Kodi</summary>
         <description lang="en">
             VietmediaF
         </description>
@@ -25,7 +25,7 @@
     </extension>
 </addon>
 
-<addon id="repo_vietmediaf_offical" name="VIETMEDIAF_OFFICAL" version="0.0.1" provider-name="repo_vietmediaf_offical">
+<addon id="repo_vietmediaf_official" name="VIETMEDIAF_OFFICAL" version="0.0.1" provider-name="repo_vietmediaf_official">
 	<extension point="xbmc.addon.repository" name="repo_vietmediaf_offical">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/master/addons.xml</info>
