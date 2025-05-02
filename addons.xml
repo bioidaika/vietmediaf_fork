@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.35" provider-name="ducnn">
     <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.six"/>
-    <import addon="script.module.requests"/>
-	<import addon="script.module.beautifulsoup4"/>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-	<extension point="xbmc.service" library="autorun.py"/>
-	<extension point="xbmc.addon.metadata">
+    <extension point="xbmc.service" library="autorun.py"/>
+    <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <summary lang="en">VietmediaF for Kodi</summary>
         <description lang="en">
@@ -38,23 +39,24 @@
         </assets>
     </extension>
 </addon>
-<addon id="repo_vietmediaf_official" name="VIETMEDIAF_OFFICAL" version="0.0.2" provider-name="repo_vietmediaf_official">
-	<extension point="xbmc.addon.repository" name="repo_vietmediaf_offical">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/master/addons.xml</info>
-			<checksum>https://one.one.one.one/cdn-cgi/trace</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/master/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>repo_vietmediaf_offical</summary>
-		<description>repo_vietmediaf_offical</description>
-		<disclaimer>repo_vietmediaf_offical</disclaimer>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>icon.jpg</fanart>
-		</assets> 
-	</extension>
+
+<addon id="repo_vietmediaf_offical" name="VIETMEDIAF_OFFICAL" version="0.0.2" provider-name="repo_vietmediaf_offical">
+    <extension point="xbmc.addon.repository" name="repo_vietmediaf_offical">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>repo_vietmediaf_offical</summary>
+        <description>repo_vietmediaf_offical</description>
+        <disclaimer>repo_vietmediaf_offical</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>icon.jpg</fanart>
+        </assets> 
+    </extension>
 </addon>
 </addons>
