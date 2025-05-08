@@ -51,7 +51,7 @@
     <extension point="xbmc.addon.repository" name="repo_vietmediaf_offical">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/main/addons.xml.md5</checksum>
+            <checksum>https://one.one.one.one/cdn-cgi/trace</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/kodivmf/vietmediaf_offical/main/</datadir>
         </dir>
     </extension>
