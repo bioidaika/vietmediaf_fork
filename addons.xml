@@ -57,13 +57,61 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>repo_vietmediaf_offical</summary>
-        <description>repo_vietmediaf_offical</description>
-        <disclaimer>repo_vietmediaf_offical</disclaimer>
+        <description>Repository cho VIETMEDIAF_OFFICAL</description>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.skinhelper" name="SkinHelper" version="0.0.4" provider-name="heppen">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.pil"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Simple Skin Helper</summary>
+        <description lang="en_GB">This script is made by heppen to help skinning</description>
+        <language></language>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, heppen" version="1.0.36">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinshortcuts"/>
+        <import addon="script.skinhelper" version="0.0.4" />
+        <import addon="script.skinvariables" version="2.1.14" />
+        <import addon="plugin.video.themoviedb.helper" version="5.4.8" />
+        <import addon="resource.images.studios.white"/>
+        <import addon="resource.images.moviegenreicons.transparent"/>
+        <import addon="resource.images.weathericons.white"/>
+        <import addon="resource.images.moviecountryicons.maps"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news></news>
+        <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="vi">Gọn gàng, tối giản, thanh lịch, đơn giản, nhẹ nhàng.</summary>
+        <description lang="en">This is a light mod of Arctic Zephyr 2 by heppen. Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey and moded to work with Kodi 19 Matrix by pkscout. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=362941</forum>
+        <source>https://github.com/DenDyGH/skin.arctic.zephyr.2.resurrection.mod</source>
         <assets>
             <icon>icon.png</icon>
-            <fanart>icon.jpg</fanart>
-        </assets> 
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+            <screenshot>resources/screenshot-06.jpg</screenshot>
+        </assets>
     </extension>
 </addon>
 </addons>
