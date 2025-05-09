@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.openwizard" name="OpenWizard" version="2.0.7" provider-name="openwizard">
+<addon id="plugin.program.openwizard" name="OpenWizard" version="2.0.7.1" provider-name="openwizard">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
