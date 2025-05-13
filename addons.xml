@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.35" provider-name="ducnn">
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.36" provider-name="xxVNxx">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six"/>
@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.openwizard" name="OpenWizard" version="2.0.7.2" provider-name="openwizard">
+<addon id="plugin.program.openwizard" name="OpenWizard" version="2.0.7.3" provider-name="openwizard">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
